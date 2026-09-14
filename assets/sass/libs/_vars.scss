@@ -11,20 +11,20 @@
 
 // Size.
 	$size: (
-		element-height:		3rem,
-		element-margin:		2rem,
-		padding:			2rem,
+		element-height:		2.75rem,
+		element-margin:		1.75rem,
+		padding:			1.5rem,
 		wrapper:			72rem
 	);
 
 // Font.
 	$font: (
-		family:				('Merriweather', Georgia, serif),
-		family-heading:		('Source Sans Pro', Helvetica, sans-serif),
-		family-fixed:		('Courier New', monospace),
-		weight:				300,
+		family:				('Space Grotesk', Helvetica, sans-serif),
+		family-heading:		('Space Grotesk', Helvetica, sans-serif),
+		family-fixed:		('IBM Plex Mono', ui-monospace, monospace),
+		weight:				400,
 		weight-bold:		600,
-		weight-heading:		900
+		weight-heading:		600
 	);
 
 // Palette.
@@ -37,7 +37,7 @@
 		fg-light:			mix(#212931, #ffffff, 50%),
 		border:				mix(#dcdcdc, #ffffff, 50%),
 		border-bg:			rgba(#dcdcdc, 0.25),
-		accent:				#18bfef,
+		accent:				#FF4D8D,
 
 		alt: (
 			bg:				#f5f5f5,
@@ -46,7 +46,7 @@
 			fg-light:		mix(#717981, #f5f5f5, 50%),
 			border:			mix(#dcdcdc, #f5f5f5, 75%),
 			border-bg:		rgba(#dcdcdc, 0.5),
-			accent:			#18bfef,
+			accent:			#FF4D8D,
 		),
 
 		invert: (
@@ -57,6 +57,6 @@
 			fg-light:		rgba(#ffffff, 0.5),
 			border:			#ffffff,
 			border-bg:		rgba(#ffffff,0.075),
-			accent:			#18bfef,
+			accent:			#FF4D8D,
 		),
 	);
