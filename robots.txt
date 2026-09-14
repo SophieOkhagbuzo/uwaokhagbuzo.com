@@ -1,3 +1,4 @@
 User-agent: *
 Disallow: /generic.html
 Disallow: /elements.html
+Disallow: /archive/
